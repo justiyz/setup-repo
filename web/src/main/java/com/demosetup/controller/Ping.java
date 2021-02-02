@@ -9,7 +9,7 @@ public class Ping {
 
         @GetMapping("/ping")
         public String index() {
-            return "Hello there! I'm running.";
+            return "Hello there!";
         }
     }
 
